@@ -5,4 +5,5 @@
 /**/*.psd
 /**/Thumbs.db
 /.idea
+.idea
 /.vscode
