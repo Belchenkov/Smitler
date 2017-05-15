@@ -24,6 +24,7 @@ $(function() {
         }, 100
         )
     });
+
     // owl-carousel
     $('.carousel-services').owlCarousel({
         //loop: true,
