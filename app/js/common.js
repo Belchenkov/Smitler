@@ -58,6 +58,10 @@ $(function() {
     // Add span wrapper
     $('.carousel-services-composition .h3').each(function () {
         var ths = $(this);
-        ths.html(ths.replace(/(\S+)\s*$/, '<span>$1</span>'));
+        //ths.html(ths.replace(/(\S+)\s*$/, '<span>$1</span>'));
+    });
+
+    $('select').selectize({
+        create: true
     });
 });

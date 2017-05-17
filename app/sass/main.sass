@@ -388,6 +388,16 @@ $colors: $blue, $red, $accent
         p
 	        margin: 30px 0
 	        color: #fff!important
+	&-call
+		background-size: contain
+		background: no-repeat 25%
+		&::before
+			content: ''
+			width: 50%
+			position: absolute
+			right: 0
+			height: 100%
+			background-color: rgba($accent, .92)
 
 .section-overlay
 	&::before
@@ -406,6 +416,8 @@ section
 	&.inverse
 		color: #fff
 		background-color: $dark
+		&.s-call
+			background-color: #fff
 	.h2
 		font-size: 30px
 		font-weight: 800
@@ -416,8 +428,19 @@ section
 .fotorama
 	background-color: rgba($dark, .4)
 
+.success
+	display: none
 
-
-
+.callback
+	padding: 25% 0
+	position: relative
+	&-logo
+		img
+			width: 100px
+			height: auto
+	.formhead
+		margin: 0
+		font-size: 30px
+		text-transform: uppercase
 
 @import "media" // Всегда в конце
