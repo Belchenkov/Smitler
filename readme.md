@@ -1,3 +1,3 @@
 # Smitler Template
 
-git clone https://github.com/Belchenkov/Smitler.git
+### Demo: http://193.187.174.213/projects/portfolio-sass/dist
