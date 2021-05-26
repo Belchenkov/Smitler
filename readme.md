@@ -1,3 +1,21 @@
 # Smitler Template
 
-### Demo: http://193.187.174.213/projects/portfolio-sass/dist
+### [Demo](http://smirler-ab.surge.sh)
+[![IMAGE ALT TEXT HERE](./uploads/screen.png)](https://nimb.ws/2ojO4l)
+
+### Get started
+
+```shell script
+git clone
+```
+```shell script
+open index.html
+```
+or
+```shell script
+npm i -g live-server
+```
+```shell script
+live-server
+```
+
